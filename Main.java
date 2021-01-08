@@ -11,8 +11,8 @@ public class Main
 
     //----------Panel 1 with two buttons ---------------------
     JPanel pnl1 = new JPanel(new GridLayout(2,2, 10, 10));
-    JButton btn1 = new JButton ("Button 1");
-    JButton btn2 = new JButton ("Button 2");
+    JButton btn1 = new JButton ("Click Me First");
+    JButton btn2 = new JButton ("Or Else Click Me");
     JLabel lbl1 = new JLabel("Enter text");
     JTextField tf1 = new JTextField(10); //  accept up to 10 characters
 
