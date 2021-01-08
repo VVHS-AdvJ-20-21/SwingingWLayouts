@@ -9,8 +9,8 @@ public class Main
     frm1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frm1.setSize(400, 600);
 
-    //----------Panel 1 with two buttons ---------------------
-    JPanel pnl1 = new JPanel(new GridLayout(2,2, 10, 10));
+    //----------Panel 1 with two buttons, label and text field ---------------------
+    JPanel pnl1 = new JPanel(new GridLayout(2,3, 20, 20));
     JButton btn1 = new JButton ("Click Me First");
     JButton btn2 = new JButton ("Or Else Click Me");
     JLabel lbl1 = new JLabel("Enter text");
